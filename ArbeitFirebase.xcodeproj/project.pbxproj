@@ -3,19 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0533D0C14A00D2DCCBF689FF /* Pods_ArbeitFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A60E5EA82CC02BE558EF75 /* Pods_ArbeitFirebase.framework */; };
 		E74EEAA4253E0B9B0053B0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EEAA3253E0B9B0053B0A6 /* AppDelegate.swift */; };
 		E74EEAA6253E0B9B0053B0A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EEAA5253E0B9B0053B0A6 /* SceneDelegate.swift */; };
-		E74EEAA8253E0B9B0053B0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EEAA7253E0B9B0053B0A6 /* ViewController.swift */; };
 		E74EEAAB253E0B9B0053B0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74EEAA9253E0B9B0053B0A6 /* Main.storyboard */; };
 		E74EEAAD253E0B9C0053B0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74EEAAC253E0B9C0053B0A6 /* Assets.xcassets */; };
 		E74EEAB0253E0B9C0053B0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74EEAAE253E0B9C0053B0A6 /* LaunchScreen.storyboard */; };
 		E74EEAC6253E21160053B0A6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EEAC5253E21160053B0A6 /* Task.swift */; };
 		E74EEACA253E21A00053B0A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EEAC9253E21A00053B0A6 /* User.swift */; };
+		E74EEADF253E3E500053B0A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E74EEADE253E3E500053B0A6 /* GoogleService-Info.plist */; };
+		E74EEAF3253E42570053B0A6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EEAF2253E42570053B0A6 /* LoginController.swift */; };
+		E74EEAF8253E4EAB0053B0A6 /* TaskListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EEAF7253E4EAB0053B0A6 /* TaskListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +27,16 @@
 		E74EEAA0253E0B9B0053B0A6 /* ArbeitFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbeitFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74EEAA3253E0B9B0053B0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E74EEAA5253E0B9B0053B0A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E74EEAA7253E0B9B0053B0A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E74EEAAA253E0B9B0053B0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E74EEAAC253E0B9C0053B0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E74EEAAF253E0B9C0053B0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E74EEAB1253E0B9C0053B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E74EEAC5253E21160053B0A6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E74EEAC9253E21A00053B0A6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E74EEADE253E3E500053B0A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E74EEAF2253E42570053B0A6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E74EEAF7253E4EAB0053B0A6 /* TaskListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListController.swift; sourceTree = "<group>"; };
+		E74EEB01253E9A250053B0A6 /* ArbeitFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArbeitFirebase.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +65,6 @@
 				D8BCCF0E7FE54BDA575E44A6 /* Pods-ArbeitFirebase.debug.xcconfig */,
 				0EF23B91E96D6B1C1CB56CEA /* Pods-ArbeitFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,13 +89,15 @@
 		E74EEAA2253E0B9B0053B0A6 /* ArbeitFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				E74EEB01253E9A250053B0A6 /* ArbeitFirebase.entitlements */,
+				E74EEAB1253E0B9C0053B0A6 /* Info.plist */,
+				E74EEADE253E3E500053B0A6 /* GoogleService-Info.plist */,
 				E74EEAC4253E21010053B0A6 /* Controllers */,
 				E74EEAC3253E20E80053B0A6 /* Views */,
 				E74EEAC2253E20DC0053B0A6 /* Delegates */,
 				E74EEAC1253E20C90053B0A6 /* Models */,
 				E74EEAAC253E0B9C0053B0A6 /* Assets.xcassets */,
 				E74EEAAE253E0B9C0053B0A6 /* LaunchScreen.storyboard */,
-				E74EEAB1253E0B9C0053B0A6 /* Info.plist */,
 			);
 			path = ArbeitFirebase;
 			sourceTree = "<group>";
@@ -125,7 +131,8 @@
 		E74EEAC4253E21010053B0A6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E74EEAA7253E0B9B0053B0A6 /* ViewController.swift */,
+				E74EEAF2253E42570053B0A6 /* LoginController.swift */,
+				E74EEAF7253E4EAB0053B0A6 /* TaskListController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74EEAB0253E0B9C0053B0A6 /* LaunchScreen.storyboard in Resources */,
+				E74EEADF253E3E500053B0A6 /* GoogleService-Info.plist in Resources */,
 				E74EEAAD253E0B9C0053B0A6 /* Assets.xcassets in Resources */,
 				E74EEAAB253E0B9B0053B0A6 /* Main.storyboard in Resources */,
 			);
@@ -245,7 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74EEAC6253E21160053B0A6 /* Task.swift in Sources */,
-				E74EEAA8253E0B9B0053B0A6 /* ViewController.swift in Sources */,
+				E74EEAF3253E42570053B0A6 /* LoginController.swift in Sources */,
+				E74EEAF8253E4EAB0053B0A6 /* TaskListController.swift in Sources */,
 				E74EEAA4253E0B9B0053B0A6 /* AppDelegate.swift in Sources */,
 				E74EEACA253E21A00053B0A6 /* User.swift in Sources */,
 				E74EEAA6253E0B9B0053B0A6 /* SceneDelegate.swift in Sources */,
@@ -396,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArbeitFirebase/ArbeitFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X94WPSRU4C;
 				INFOPLIST_FILE = ArbeitFirebase/Info.plist;
@@ -416,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArbeitFirebase/ArbeitFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X94WPSRU4C;
 				INFOPLIST_FILE = ArbeitFirebase/Info.plist;
